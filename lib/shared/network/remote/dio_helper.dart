@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:to_pay/shared/components/constance.dart';
 
 // Dio dio() {
 //   Dio dio = Dio();
@@ -14,7 +15,7 @@ class DioHelper {
   static init() {
     dio = Dio(
       BaseOptions(
-          baseUrl: "https://creators-nafezly.me/api",
+          baseUrl: EndPoint.baseUrl,
           receiveDataWhenStatusError: true,
           headers: {"Accept": "application/json"}),
     );

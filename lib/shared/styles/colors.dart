@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 const defaultColor = Color.fromRGBO(63, 81, 181, 1);
@@ -14,18 +12,18 @@ const darkColor = Color.fromRGBO(11, 11, 11, 1);
 
 ThemeData lightTheme = ThemeData(
     scaffoldBackgroundColor: Colors.white,
-    appBarTheme: AppBarTheme(
+    appBarTheme: const AppBarTheme(
       backgroundColor: secondeColor,
     ),
-    floatingActionButtonTheme: FloatingActionButtonThemeData(
+    floatingActionButtonTheme: const FloatingActionButtonThemeData(
       backgroundColor: defaultColor,
     ));
 
 ThemeData darkTheme = ThemeData(
-    scaffoldBackgroundColor: Color.fromRGBO(22, 22, 22, 1),
-    appBarTheme: AppBarTheme(
+    scaffoldBackgroundColor: const Color.fromRGBO(22, 22, 22, 1),
+    appBarTheme: const AppBarTheme(
       backgroundColor: darkColor,
     ),
-    floatingActionButtonTheme: FloatingActionButtonThemeData(
+    floatingActionButtonTheme: const FloatingActionButtonThemeData(
       backgroundColor: defaultColor,
     ));

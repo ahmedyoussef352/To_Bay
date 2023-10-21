@@ -159,4 +159,10 @@ class OnLoadingRegistration extends StateApp {}
 class RegistrationSuccessful extends StateApp {}
 
 class RegistrationError extends StateApp {}
+class OnLoadingGetUserData extends StateApp {}
+
+class GetUserDataSuccessful extends StateApp {}
+
+class GetUserDataError extends StateApp {}
+
 

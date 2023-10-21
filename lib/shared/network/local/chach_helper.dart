@@ -1,4 +1,5 @@
-import 'package:flutter/foundation.dart';
+// ignore_for_file: non_constant_identifier_names, curly_braces_in_flow_control_structures
+
 import 'package:shared_preferences/shared_preferences.dart';
 
 class CacheHelper {
